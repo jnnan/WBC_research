@@ -5,7 +5,8 @@
     "model": "ER-Flow + MMDiT",
     "control": "G1；统一动作54D",
     "evaluation": "54桌面+10全身任务展示；无汇总SR",
-    "anchor": "unifolm"
+    "anchor": "unifolm",
+    "category": "世界模型增强型 VLA（WLA）"
   },
   {
     "method": "Delta-0",
@@ -13,7 +14,8 @@
     "model": "潜在世界-动作模型",
     "control": "共享154D→控制器69 DoF",
     "evaluation": "新布局 HIL+RL 后4/20→13/20",
-    "anchor": "delta"
+    "anchor": "delta",
+    "category": "潜在世界—动作模型（WAM）"
   },
   {
     "method": "DiT4DiT",
@@ -21,7 +23,8 @@
     "model": "视频DiT + 动作DiT",
     "control": "论文G1双夹爪；A100 6 Hz",
     "evaluation": "论文7项真机71.43%（复算）；后续扩展",
-    "anchor": "dit"
+    "anchor": "dit",
+    "category": "视频—动作双 DiT 模型（WAM）"
   },
   {
     "method": "HomeBody",
@@ -29,7 +32,8 @@
     "model": "VLM + 几何技能库",
     "control": "G1；手臂/手250 Hz，AMO 50 Hz",
     "evaluation": "2段真机长任务；定量小样本为SIM",
-    "anchor": "homebody"
+    "anchor": "homebody",
+    "category": "VLM + 技能库编排系统"
   },
   {
     "method": "λ₀ / Lambda-0",
@@ -37,7 +41,8 @@
     "model": "Qwen3.5-2B + 动作专家",
     "control": "G1/Revo2；76D→SONIC+手",
     "evaluation": "SIMPLE 90%；真机25/40=62.5%",
-    "anchor": "lambda"
+    "anchor": "lambda",
+    "category": "人类全身数据预训练 VLA"
   },
   {
     "method": "ω-0 / Omega-0",
@@ -45,7 +50,8 @@
     "model": "VLM + 视频/动作latent预测",
     "control": "G1/Inspire；SONIC；约7 Hz",
     "evaluation": "Ego79.1%，Omni81.8%；观察条件不同",
-    "anchor": "omega"
+    "anchor": "omega",
+    "category": "联合视频—动作预测模型（WAM）"
   },
   {
     "method": "GR00T N1.7",
@@ -53,7 +59,8 @@
     "model": "Cosmos Reason 2 + flow DiT",
     "control": "跨具身接口；G1 SONIC",
     "evaluation": "任务专用benchmark；指南部分数值冲突",
-    "anchor": "groot"
+    "anchor": "groot",
+    "category": "跨具身通用 VLA"
   },
   {
     "method": "Helix 2.5",
@@ -61,6 +68,7 @@
     "model": "共同基座→3个任务策略",
     "control": "Figure；2.5控制频率未披露",
     "evaluation": "30户；35/420→237/420",
-    "anchor": "helix"
+    "anchor": "helix",
+    "category": "人类行为预训练模型 + 任务专用策略"
   }
 ]
