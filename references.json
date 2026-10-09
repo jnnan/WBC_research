@@ -1,0 +1,226 @@
+[
+  {
+    "id": "U1",
+    "title": "Unitree：UnifoLM-WLA-1.0 官方项目页",
+    "url": "https://unigen-x.github.io/unifolm-wla.github.io/",
+    "locator": "概述、模型结构、54 + 10 任务图库",
+    "accessed": "2026-10-09",
+    "local_source": "sources/unitree_project.html"
+  },
+  {
+    "id": "U2",
+    "title": "Unitree：官方代码仓库",
+    "url": "https://github.com/unitreerobotics/UnifoLM-WLA",
+    "locator": "News、模型与数据开放入口",
+    "accessed": "2026-10-09",
+    "local_source": "sources/unitree_code.html"
+  },
+  {
+    "id": "U3",
+    "title": "UnifoLM-WLA-1.0-Base 模型卡",
+    "url": "https://huggingface.co/unitreerobotics/UnifoLM-WLA-1.0-Base",
+    "locator": "版本、参数规模与模型说明",
+    "accessed": "2026-10-09",
+    "local_source": "sources/unitree_card.html"
+  },
+  {
+    "id": "U4",
+    "title": "Unitree：Robot Action / State Processing",
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unifolm-wla/main/docs/robot_action_state_processing_en.md",
+    "locator": "动作54维、状态60维、掩码及重采样",
+    "accessed": "2026-10-09",
+    "local_source": "sources/unitree_actions.html"
+  },
+  {
+    "id": "U5",
+    "title": "Unitree：Train Action Expert",
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unifolm-wla/main/docs/train_action_expert_en.md",
+    "locator": "训练与推理说明；Dex1-only 服务接口限制",
+    "accessed": "2026-10-09",
+    "local_source": "sources/unitree_train.html"
+  },
+  {
+    "id": "D1",
+    "title": "DeltAI：Delta-0 技术报告",
+    "url": "https://deltai.com/en/blog/delta-0",
+    "locator": "September 2026；架构、数据、控制器与洗碗机适配实验",
+    "accessed": "2026-10-09",
+    "local_source": "sources/delta_report.html"
+  },
+  {
+    "id": "D2",
+    "title": "投中网：Delta-0 发布报道",
+    "url": "https://www.chinaventure.com.cn/news/64-20260928-393468.html",
+    "locator": "2026-09-28；辅助核对公开发布时间，技术结论以 D1 为准",
+    "accessed": "2026-10-09",
+    "local_source": "sources/delta_press.html"
+  },
+  {
+    "id": "T1",
+    "title": "DiT4DiT 论文 v1，arXiv:2603.10448",
+    "url": "https://arxiv.org/html/2603.10448v1",
+    "locator": "2026-03-11；表1–3、图5–7及附录",
+    "accessed": "2026-10-09",
+    "local_source": "sources/dit_paper.html"
+  },
+  {
+    "id": "T2",
+    "title": "DiT4DiT 论文 v2",
+    "url": "https://arxiv.org/html/2603.10448v2",
+    "locator": "2026-03-22；对照 v1 的评测表",
+    "accessed": "2026-10-09",
+    "local_source": "sources/dit_latest.html"
+  },
+  {
+    "id": "T3",
+    "title": "DiT4DiT 当前项目页",
+    "url": "https://dit4dit.github.io/",
+    "locator": "后续更新的桌面/全身操作结果图",
+    "accessed": "2026-10-09",
+    "local_source": "sources/dit_project.html"
+  },
+  {
+    "id": "T4",
+    "title": "Mondo Robotics：DiT4DiT 代码",
+    "url": "https://github.com/Mondo-Robotics/DiT4DiT",
+    "locator": "当前 README 的 LIBERO / RoboCasa 数值、发布记录和模型入口",
+    "accessed": "2026-10-09",
+    "local_source": "sources/dit_code.html"
+  },
+  {
+    "id": "H1",
+    "title": "Stanford TML：HomeBody 项目页",
+    "url": "https://tml.stanford.edu/homebody/",
+    "locator": "真实机器人演示、硬件、控制频率、FAQ",
+    "accessed": "2026-10-09",
+    "local_source": "sources/home_project.html"
+  },
+  {
+    "id": "H2",
+    "title": "Stanford TML：HomeBody 代码",
+    "url": "https://github.com/Stanford-TML/homebody",
+    "locator": "SIM / REAL2SIM / REAL 发布日程及仿真复现说明",
+    "accessed": "2026-10-09",
+    "local_source": "sources/home_code.html"
+  },
+  {
+    "id": "L1",
+    "title": "λ₀：Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining",
+    "url": "https://arxiv.org/html/2610.00438v1",
+    "locator": "arXiv:2610.00438v1，2026-09-30；§3–5、表1–3、图9–10",
+    "accessed": "2026-10-09",
+    "local_source": "sources/lambda_paper.html"
+  },
+  {
+    "id": "O1",
+    "title": "ω-0：A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
+    "url": "https://arxiv.org/html/2608.06375v1",
+    "locator": "arXiv:2608.06375v1，2026-08-06；§4–6、表1–3、附录任务卡",
+    "accessed": "2026-10-09",
+    "local_source": "sources/omega_paper.html"
+  },
+  {
+    "id": "O2",
+    "title": "ω-0 官方项目页",
+    "url": "https://gentlefress.github.io/OMEGA-0_page/",
+    "locator": "作者机构、框架图、数据与代码入口",
+    "accessed": "2026-10-09",
+    "local_source": "sources/omega_project.html"
+  },
+  {
+    "id": "O3",
+    "title": "ω-0 官方代码仓库",
+    "url": "https://github.com/gentlefress/OMEGA-0",
+    "locator": "训练、推理、部署与预训练权重 TODO",
+    "accessed": "2026-10-09",
+    "local_source": "sources/omega_code.html"
+  },
+  {
+    "id": "O4",
+    "title": "ω-HOME 数据集",
+    "url": "https://huggingface.co/datasets/keycharon/omega-HOME",
+    "locator": "Hugging Face 发布入口",
+    "accessed": "2026-10-09",
+    "local_source": "sources/omega_dataset.html"
+  },
+  {
+    "id": "G1",
+    "title": "NVIDIA：GR00T N1.7 Early Access 官方文章",
+    "url": "https://huggingface.co/blog/nvidia/gr00t-n1-7",
+    "locator": "Hugging Face，2026-04-17；模型升级、EgoScale 与性能",
+    "accessed": "2026-10-09",
+    "local_source": "sources/groot_blog17.html"
+  },
+  {
+    "id": "G2",
+    "title": "NVIDIA Isaac-GR00T 官方代码",
+    "url": "https://github.com/NVIDIA/Isaac-GR00T",
+    "locator": "当前 main：GA 状态、接口、推理频率和许可证说明",
+    "accessed": "2026-10-09",
+    "local_source": "sources/groot_code.html"
+  },
+  {
+    "id": "G3",
+    "title": "NVIDIA GR00T-N1.7-3B 模型卡",
+    "url": "https://huggingface.co/nvidia/GR00T-N1.7-3B",
+    "locator": "仍标记 EA；21.6 million data points、13 datasets",
+    "accessed": "2026-10-09",
+    "local_source": "sources/groot_card.html"
+  },
+  {
+    "id": "G4",
+    "title": "Isaac-GR00T Releases",
+    "url": "https://github.com/NVIDIA/Isaac-GR00T/releases",
+    "locator": "n1.7-release，2026-04-18T14:45:14Z，Early Access",
+    "accessed": "2026-10-09",
+    "local_source": "sources/groot_releases.html"
+  },
+  {
+    "id": "G5",
+    "title": "GR00T-N1.7-3B 实际模型配置",
+    "url": "https://huggingface.co/nvidia/GR00T-N1.7-3B/raw/main/config.json",
+    "locator": "diffusion_model_cfg.num_layers=32；与 README 层数说明不同",
+    "accessed": "2026-10-09",
+    "local_source": "sources/groot_config.html"
+  },
+  {
+    "id": "G6",
+    "title": "GR00T-N1.7-3B 权重许可证",
+    "url": "https://huggingface.co/nvidia/GR00T-N1.7-3B/raw/main/LICENSE",
+    "locator": "NVIDIA Open Model License",
+    "accessed": "2026-10-09",
+    "local_source": "sources/groot_license.html"
+  },
+  {
+    "id": "F1",
+    "title": "Figure：Helix 2.5 — Zero-Shot 30-Home Generalization",
+    "url": "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization",
+    "locator": "2026-09-17；正文、图1–2、Appendix 评测规则",
+    "accessed": "2026-10-09",
+    "local_source": "sources/helix25.html"
+  },
+  {
+    "id": "G7",
+    "title": "NVIDIA：LIBERO 官方评测指南",
+    "url": "https://github.com/NVIDIA/Isaac-GR00T/blob/main/examples/LIBERO/README.md",
+    "locator": "任务专用微调的试验次数与成绩；原文比例有算术不一致",
+    "accessed": "2026-10-09",
+    "local_source": "sources/groot_libero.txt"
+  },
+  {
+    "id": "G8",
+    "title": "NVIDIA：SimplerEnv 官方评测指南",
+    "url": "https://github.com/NVIDIA/Isaac-GR00T/blob/main/examples/SimplerEnv/README.md",
+    "locator": "Bridge 和 Fractal 各任务100次评测",
+    "accessed": "2026-10-09",
+    "local_source": "sources/groot_simpler.txt"
+  },
+  {
+    "id": "F2",
+    "title": "Figure：Introducing Index",
+    "url": "https://www.figure.ai/news/introducing-index",
+    "locator": "2026-08-25；数据平台采集规模与吞吐量",
+    "accessed": "2026-10-09",
+    "local_source": "sources/helix_index.html"
+  }
+]

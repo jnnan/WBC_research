@@ -1,0 +1,8 @@
+# Local research sources and generation artifacts.
+sources/
+assets/
+__pycache__/
+build_report.py
+research.py
+validate_report.py
+validation.json

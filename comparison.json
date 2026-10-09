@@ -1,0 +1,66 @@
+[
+  {
+    "method": "UnifoLM-WLA-1.0",
+    "data": "≈2,500 h 真机；另有5M+推理样本",
+    "model": "ER-Flow + MMDiT",
+    "control": "G1；统一动作54D",
+    "evaluation": "54桌面+10全身任务展示；无汇总SR",
+    "anchor": "unifolm"
+  },
+  {
+    "method": "Delta-0",
+    "data": ">10,000 h 人类ego+全身运动",
+    "model": "潜在世界-动作模型",
+    "control": "共享154D→控制器69 DoF",
+    "evaluation": "新布局 HIL+RL 后4/20→13/20",
+    "anchor": "delta"
+  },
+  {
+    "method": "DiT4DiT",
+    "data": "241,450仿真+1,400真机（早期）",
+    "model": "视频DiT + 动作DiT",
+    "control": "论文G1双夹爪；A100 6 Hz",
+    "evaluation": "论文7项真机71.43%（复算）；后续扩展",
+    "anchor": "dit"
+  },
+  {
+    "method": "HomeBody",
+    "data": "环境探索与空间记忆；无房间专属策略训练",
+    "model": "VLM + 几何技能库",
+    "control": "G1；手臂/手250 Hz，AMO 50 Hz",
+    "evaluation": "2段真机长任务；定量小样本为SIM",
+    "anchor": "homebody"
+  },
+  {
+    "method": "λ₀ / Lambda-0",
+    "data": "HumanVerse-500：500 h；7个人类数据源",
+    "model": "Qwen3.5-2B + 动作专家",
+    "control": "G1/Revo2；76D→SONIC+手",
+    "evaluation": "SIMPLE 90%；真机25/40=62.5%",
+    "anchor": "lambda"
+  },
+  {
+    "method": "ω-0 / Omega-0",
+    "data": "ω-HOME 40.3 h；下游2,220示范",
+    "model": "VLM + 视频/动作latent预测",
+    "control": "G1/Inspire；SONIC；约7 Hz",
+    "evaluation": "Ego79.1%，Omni81.8%；观察条件不同",
+    "anchor": "omega"
+  },
+  {
+    "method": "GR00T N1.7",
+    "data": "20K+ h人类；21.6M点的单位未定义",
+    "model": "Cosmos Reason 2 + flow DiT",
+    "control": "跨具身接口；G1 SONIC",
+    "evaluation": "任务专用benchmark；指南部分数值冲突",
+    "anchor": "groot"
+  },
+  {
+    "method": "Helix 2.5",
+    "data": "Index；实际训练快照小时数未公开",
+    "model": "共同基座→3个任务策略",
+    "control": "Figure；2.5控制频率未披露",
+    "evaluation": "30户；35/420→237/420",
+    "anchor": "helix"
+  }
+]

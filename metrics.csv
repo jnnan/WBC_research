@@ -1,0 +1,17 @@
+﻿method,experiment,numerator,denominator,percent,metric,source,notes
+Delta-0,mirrored kitchen before adaptation,4,20,20,full task success,D1,SFT only
+Delta-0,mirrored kitchen after HIL + RL,13,20,65,full task success,D1,new-layout adaptation
+DiT4DiT,paper seven real tasks,100,140,71.42857142857143,full task success; derived,T1,20 trials per task; paper not current project
+Lambda-0,four real tasks,25,40,62.5,full task success,L1,ten fixed initial configurations per task
+Lambda-0,four real tasks,,,80.4,weighted progress,L1,not success rate
+Lambda-0,SIMPLE,162,180,90.0,full task success; numerator derived,L1,6 tasks x 3 levels x 10
+Omega-0,Ego,,,79.1,full task success,O1,110 trials/method; do not confuse with progress
+Omega-0,Omni,,,81.8,full task success,O1,5 tasks use exocentric images
+Helix 2.5,scratch towel,12,140,8.571428571428571,full task success; percent derived,F1,safety intervention abort/fail
+Helix 2.5,Index towel,87,140,62.142857142857146,full task success; percent derived,F1,safety intervention abort/fail
+Helix 2.5,scratch toy,7,140,5,full task success,F1,safety intervention abort/fail
+Helix 2.5,Index toy,56,140,40,full task success,F1,safety intervention abort/fail
+Helix 2.5,scratch bed,16,140,11.428571428571429,full task success; percent derived,F1,safety intervention abort/fail
+Helix 2.5,Index bed,94,140,67.14285714285714,full task success; percent derived,F1,safety intervention abort/fail
+Helix 2.5,scratch pooled,35,420,8.333333333333332,full task success; derived,F1,"article prose 9%, chart label 8%"
+Helix 2.5,Index pooled,237,420,56.42857142857143,full task success; derived,F1,"30 homes, three task-specific checkpoints"
